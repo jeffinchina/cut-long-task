@@ -1,0 +1,4 @@
+interface:
+  display_name: "长任务分段"
+  short_description: "按五小时剩余额度分段保存并暂停长任务，在指定时间点检查额度后继续"
+  default_prompt: "使用 $cut-long-task，为当前长任务保留 20% 的五小时额度，并在明天上午 9:00 和下午 15:00 检查后续做。"
